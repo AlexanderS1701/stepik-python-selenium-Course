@@ -23,5 +23,5 @@ try:
     browser.find_element(By.ID, "solve").click()
 
 finally:
-    time.sleep(4)
+    time.sleep(10)
     browser.quit()
