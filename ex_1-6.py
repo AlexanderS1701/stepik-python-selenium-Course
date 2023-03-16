@@ -37,5 +37,5 @@ try:
     assert "Congratulations! You have successfully registered!" == welcome_text
 
 finally:
-    time.sleep(10)
+    time.sleep(3)
     browser.quit()
